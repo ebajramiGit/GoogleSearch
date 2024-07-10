@@ -1,10 +1,15 @@
 $centered: center;
+$leftalign: left;
 $textSize: 20px;
+$font: Arial, Helvetica, sans-serif;
+$subheading2color: red;
+$subheading2fontsize: 20px;
     @media (min-width: 600px) {
         body {
             background-color: seashell;
-            text-align: $centered;
+            text-align: $leftalign;
             text-size-adjust: $textSize;
+            font-family: $font
         }
     }
 
@@ -12,9 +17,18 @@ $textSize: 20px;
         body {
             background-color: lavender;
             text-align: $centered;
+            font-family: $font;
         }
     }
+    #subheading2 {
+        color: $subheading2color;
+        font-size: $subheading2fontsize;
 
+    }
+
+    #mainSearch {
+        text-align: $centered;
+    }
     #grid {
         background-color: rgb(247, 222, 222);
         display: grid;
@@ -22,6 +36,8 @@ $textSize: 20px;
         grid-column-gap: 5px;
         grid-row-gap: 5px;
         grid-template-columns: 150px auto 100px 200px;
+        text-align: $centered;
+        
 
     }
 
@@ -29,4 +45,5 @@ $textSize: 20px;
         background-color: white;
         font-size: 20px;
         padding: 5px;
+        font-family: $font;
     }
