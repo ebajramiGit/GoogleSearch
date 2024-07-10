@@ -1,0 +1,29 @@
+@media (min-width: 600px) {
+  body {
+    background-color: seashell;
+    text-align: center;
+    -webkit-text-size-adjust: 20px;
+       -moz-text-size-adjust: 20px;
+            text-size-adjust: 20px;
+  }
+}
+@media (max-width: 599px) {
+  body {
+    background-color: lavender;
+    text-align: center;
+  }
+}
+#grid {
+  background-color: rgb(247, 222, 222);
+  display: grid;
+  padding: 5px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-template-columns: 150px auto 100px 200px;
+}
+
+.grid-item {
+  background-color: white;
+  font-size: 20px;
+  padding: 5px;
+}/*# sourceMappingURL=style.css.map */
