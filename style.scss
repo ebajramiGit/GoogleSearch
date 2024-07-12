@@ -4,6 +4,8 @@ $textSize: 20px;
 $font: Arial, Helvetica, sans-serif;
 $subheading2color: red;
 $subheading2fontsize: 20px;
+$blueButtonColor: #4d90fe;
+$blueButtonText: white;
     @media (min-width: 600px) {
         body {
             background-color: seashell;
@@ -29,6 +31,7 @@ $subheading2fontsize: 20px;
     #mainSearch {
         text-align: $centered;
     }
+
     #grid {
         background-color: rgb(247, 222, 222);
         display: grid;
@@ -46,4 +49,35 @@ $subheading2fontsize: 20px;
         font-size: 20px;
         padding: 5px;
         font-family: $font;
+    }
+
+    #AdvSrchButton {
+        background-color: #4d90fe;
+        color: $blueButtonText;
+        font-size: 11px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 2px;
+        padding-inline: 6px;
+        padding: 0 12px;
+        height: 27px;
+        margin: 10px;
+        border: 1px solid #3079ed;
+        float:inline-start;
+        min-width: 54px;
+    }
+    #AdvSrchButton:hover {
+        background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+    }
+
+    div.subheading2 {
+        color: #d93025;
+        font-size: 20px;
+        margin: 25px 35px;
+    }
+    div.separated {
+        max-width: 1140px;
+        min-width: 200px;
+        width: 96%;
+        margin: 40px 2% 0 45px;
     }
