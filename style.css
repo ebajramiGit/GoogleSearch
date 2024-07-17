@@ -1,6 +1,7 @@
+/*-- Background style */
 @media (min-width: 600px) {
   body {
-    background-color: seashell;
+    background-color: white;
     text-align: left;
     -webkit-text-size-adjust: 20px;
        -moz-text-size-adjust: 20px;
@@ -15,17 +16,28 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 }
+/* Image style */
+div.image {
+  text-align: center;
+  padding: 5%;
+  border: 0px;
+  margin: 2px;
+}
+
+/* Advanced search header style */
 #subheading2 {
   color: red;
   font-size: 20px;
 }
 
+/* main search button */
 #mainSearch {
   text-align: center;
 }
 
+/* Menu */
 #grid {
-  background-color: rgb(247, 222, 222);
+  background-color: rgb(255, 255, 255);
   display: grid;
   padding: 5px;
   grid-column-gap: 5px;
@@ -41,6 +53,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Advanced search styling */
 #AdvSrchButton {
   background-color: #4d90fe;
   color: white;
@@ -61,12 +74,14 @@
   background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
 }
 
+/* Advanced search header style */
 div.subheading2 {
   color: #d93025;
   font-size: 20px;
   margin: 25px 35px;
 }
 
+/* Spacing for different advanced searches */
 div.separated {
   max-width: 1140px;
   min-width: 200px;
